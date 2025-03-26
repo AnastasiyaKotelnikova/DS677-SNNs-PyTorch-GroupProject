@@ -13,7 +13,7 @@ Objectives
 Repository Structure
 - **data/** – Stores datasets used for training and testing.
 - **models/** – Contains trained models and saved checkpoints.
-- **notebooks/** – Jupyter notebooks for model experimentation.
+- **notebooks/** – Google Colab notebooks for model experimentation.
 - **src/** – Python scripts for preprocessing, model training, and evaluation.
 - **results/** – Outputs, logs, and performance analysis.
 - **project_report.md** – Documentation of project progress. 
