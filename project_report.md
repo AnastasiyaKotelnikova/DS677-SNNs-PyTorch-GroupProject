@@ -22,7 +22,7 @@
 
 
 ### Phase 2: Model Evaluation & Finalization  
-**Tasks Completed by Mehrvish Mirza**
+**Tasks Completed by Mehrvish Mirza:**
 
 ### April 1, 2025
 - Continued from Phase 1 with the finalized `SNNModel` built using Norse’s `LIFCell`.
