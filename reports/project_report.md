@@ -53,6 +53,8 @@
   - Dataset overview
   - Model design, training process, and evaluation results
   - Lessons learned and next steps
+ 
+### April 20, 2025  
 
 - Created and finalized the group PowerPoint presentation covering:
   - Project motivation and goals
