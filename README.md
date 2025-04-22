@@ -1,7 +1,8 @@
 # Spiking Neural Networks with PyTorch & Norse
 
 This repository contains the implementation of **Spiking Neural Networks (SNNs)** using **PyTorch** and the **Norse** library.  
-It was developed as part of the **DS677 Deep Learning** course at NJIT and explores neuromorphic computing by comparing SNNs to traditional ANNs.
+This project was **researched, proposed, and led by Anastasiya Kotelnikova and Mehrvish Mirza** as part of the **DS677 Deep Learning** course at NJIT.  
+It explores **neuromorphic computing** by implementing biologically inspired models and comparing SNNs to traditional Artificial Neural Networks (ANNs).
 
 ---
 
