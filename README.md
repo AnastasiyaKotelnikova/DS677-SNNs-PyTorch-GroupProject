@@ -1,21 +1,91 @@
-Project Overview
-This repository contains the implementation of Spiking Neural Networks (SNNs) using PyTorch and the Norse library. The project explores neuromorphic computing and compares SNNs with traditional deep learning approaches.
- 
-This project explores Spiking Neural Networks (SNNs) using PyTorch and the Norse library. SNNs are a biologically inspired class of neural networks that process information more efficiently by mimicking the way neurons communicate through discrete spikes. Our goal is to implement, train, and evaluate an SNN model and compare its performance with traditional deep learning approaches.
+# Spiking Neural Networks with PyTorch & Norse
 
-Objectives
-- Implement an **SNN model** using PyTorch and Norse.
-- Preprocess and use neuromorphic datasets (**SHD, N-MNIST, MNIST**).
-- Compare the performance of **SNN vs. traditional ANN models**.
-- Optimize and fine-tune SNN hyperparameters for better efficiency.
-- Document results and findings for further research in neuromorphic computing.
+This repository contains the implementation of **Spiking Neural Networks (SNNs)** using **PyTorch** and the **Norse** library.  
+It was developed as part of the **DS677 Deep Learning** course at NJIT and explores neuromorphic computing by comparing SNNs to traditional ANNs.
 
-Repository Structure
-- **data/** – Stores datasets used for training and testing.
-- **models/** – Contains trained models and saved checkpoints.
-- **notebooks/** – Google Colab notebooks for model experimentation.
-- **src/** – Python scripts for preprocessing, model training, and evaluation.
-- **results/** – Outputs, logs, and performance analysis.
-- **project_report.md** – Documentation of project progress. 
+---
 
+## Project Overview
 
+Spiking Neural Networks (SNNs) are a biologically inspired class of neural networks that simulate neuron behavior using discrete spikes for energy-efficient and event-driven processing.
+
+This project focuses on building and evaluating SNNs using time-based datasets and benchmarking them against standard deep learning models.
+
+---
+
+## Objectives
+
+-  Implement an **SNN model** using PyTorch and Norse  
+-  Preprocess and use neuromorphic datasets: **SHD**, **N-MNIST**, and **MNIST**  
+-  Compare performance of **SNNs vs. traditional ANNs**  
+-  Optimize SNN hyperparameters for improved training accuracy and efficiency  
+-  Document results and provide research insights into neuromorphic computing  
+
+---
+
+## Repository Structure
+
+```plaintext
+data/            # Datasets used for training and testing
+models/          # Saved checkpoints and trained models
+notebooks/       # Colab notebooks for experimentation and prototyping
+src/             # Python scripts for preprocessing and training
+results/         # Logs, visualizations, and evaluation outputs
+project_report.md# Project summary and final report
+
+---
+
+## Tools & Libraries
+
+- Python 3.10  
+- PyTorch  
+- Norse ([github.com/norse/norse](https://github.com/norse/norse))  
+- NumPy, Matplotlib, Seaborn  
+- Google Colab (for experimentation)
+
+---
+
+## Sample Results
+
+|   Dataset  |   Model  |   Accuracy  |    Notes               |
+|------------|----------|-------------|------------------------|
+| SHD        | SNN      | 84%         | LIFCell-based SNN      |
+| N-MNIST    | SNN      | 92%         | Spike-trained SNN      |
+| MNIST      | ANN      | 98%         | CNN baseline           |
+
+ Additional outputs and performance logs are available in the `results/` folder.
+
+---
+
+## Key Concepts
+
+-  **Neuromorphic Computing**: Simulating brain-like neural behavior using spikes  
+-  **LIF Neurons**: Biologically inspired neurons with leak-integrate-fire dynamics  
+-  **SNN vs ANN**: Compared accuracy, latency, and training performance  
+-  **Spike Encoding**: Converting continuous input into time-based spikes  
+-  **Backpropagation Through Time (BPTT)**: Used to train spike-based models
+
+---
+
+## Contributors
+
+### Anastasiya Kotelnikova  
+Master’s Student in Data Science at NJIT  
+anastasiya.kotelnikova21@gmail.com  
+
+### Mehrvish Mirza  
+AI Certificate Student at NJIT | Analyst with a background in Finance & IT  
+Currently enrolled in DS677 – Deep Learning (Spring 2025) alongside the author
+
+---
+
+## Course Info  
+**Course**: DS677 – Deep Learning  
+**Institution**: New Jersey Institute of Technology  
+**Semester**: Spring 2025  
+
+---
+
+## 🛡 License  
+📎 This project is for academic and educational use only.  
+© 2025 Anastasiya Kotelnikova & Mehrvish Mirza
