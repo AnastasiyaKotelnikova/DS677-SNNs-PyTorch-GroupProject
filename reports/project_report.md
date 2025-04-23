@@ -13,12 +13,14 @@
 - Implemented a PyTorch-compatible `Dataset` and `DataLoader` pipeline for handling event-based spiking data.
 - Explored and tested different spiking neural network (SNN) architectures using the Norse library.
 
-### March 27, 2025
-- Implemented the full `SNNModel` using Norse's `LIFCell` and PyTorch’s sequential layers.
-- Converted spike-based input data into dense tensors for SNN processing using `convert_to_spike_tensor`.
-- Set up and executed a training loop that ran for **10 epochs**, using batch processing, loss logging, and optimizer updates.
-- Verified successful GPU-based training and monitored the loss decreasing across epochs.
-- Finalized notebook merging, verified model output, and pushed updated results to GitHub.
+### April 23, 2025
+- Finalized and reviewed the entire Milestone 3 report for submission.
+- Corrected and reformatted all performance tables (accuracy and inference time) to match benchmark comparisons across models.
+- Reorganized and refined the Table of Contents using formal academic structure with accurate headings and figure/table listings.
+- Ensured that the GitHub repository link points to the main project page for easier access.
+- Verified report alignment with professor’s Milestone 3 requirements, including discussion, results, and model comparison sections.
+
+
 
 
 ### Phase 2: Model Evaluation & Finalization  
