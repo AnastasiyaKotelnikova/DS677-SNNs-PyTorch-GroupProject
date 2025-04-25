@@ -17,7 +17,7 @@ This project focuses on building and evaluating SNNs using time-based datasets a
 ## Objectives
 
 -  Implement an **SNN model** using PyTorch and Norse  
--  Preprocess and use neuromorphic datasets: **SHD**, **N-MNIST**, and **MNIST**  
+-  Preprocess and use neuromorphic dataset: **SHD**
 -  Compare performance of **SNNs vs. traditional ANNs**  
 -  Optimize SNN hyperparameters for improved training accuracy and efficiency  
 -  Document results and provide research insights into neuromorphic computing  
@@ -27,12 +27,12 @@ This project focuses on building and evaluating SNNs using time-based datasets a
 ## Repository Structure
 
 ```plaintext
-data/            # Datasets used for training and testing
-models/          # Saved checkpoints and trained models
+data/            
+models/          
 notebooks/       # Colab notebooks for experimentation and prototyping
-src/             # Python scripts for preprocessing and training
-results/         # Logs, visualizations, and evaluation outputs
-project_report.md# Project summary and final report
+reports/         # Milestones, Reports, Saved checkpoints and trained models, Datasets used for training and testing
+src/             
+results/         
 
 ---
 
