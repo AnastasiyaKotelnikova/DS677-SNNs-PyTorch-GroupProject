@@ -90,3 +90,5 @@ Currently enrolled in DS677 – Deep Learning (Spring 2025) alongside the author
 ## 🛡 License  
 📎 This project is for academic and educational use only.  
 © 2025 Anastasiya Kotelnikova & Mehrvish Mirza
+Email: [anastasiyakotelnikova21@gmail.com](mailto:anastasiyakotelnikova21@gmail.com)  
+[GitHub Profile](https://github.com/AnastasiyaKotelnikova) • [Portfolio Website](https://anastasiyakotelnikova.github.io/Portfolio/) • [LinkedIn](https://www.linkedin.com/in/anastasiyakotelnikova/)
