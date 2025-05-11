@@ -55,7 +55,7 @@ results/
 | N-MNIST    | SNN      | 92%         | Spike-trained SNN      |
 | MNIST      | ANN      | 98%         | CNN baseline           |
 
- Additional outputs and performance logs are available in the `results/` folder.
+ Additional outputs and performance logs are available in the `notebooks/` folder.
 
 ---
 
